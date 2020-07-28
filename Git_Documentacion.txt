@@ -1,0 +1,41 @@
+//Nos permite saber la version de git que manejamos
+git --version
+
+//Ingresar a un folder
+cd "direccion"
+
+//Establecer el nombre de la persona que trabajara con git en el equipo
+git config --global user.name "Jean Pierr"
+
+//Establecer el email de la persona que trabaja con git en el equipo
+git config --global user.email "jeanpierr-28@hotmail.com"
+
+//Saber la informacion de la persona que trabaja con git en el equipo
+git config --global -l
+
+//Nos permite inicializar el archivo , es decir crear el archivo git 
+git init 
+
+//Nos permite visualizar el status de nuestros archivos
+git status
+
+//Nos permite agregar un archivo al stating area
+git add .
+
+//Nos permite enviar al los archivos al repositorio local
+git commit -m "Primer commit"
+
+//Nos permite visualizar la diferencia entre los archivos del stating area y working 
+git diff
+
+//Nos permite recuperar los archivos del repositorio local
+git checkout
+
+//Nos permite enviar el archivo del repositorio local al remoto
+git pull
+
+//Nos permite copiar el archivo del repositorio remoto al local 
+git push
+
+//Nos permite visualizar el historial de commit que se ha realizado
+git log
