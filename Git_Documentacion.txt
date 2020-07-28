@@ -70,3 +70,5 @@ git reset --hard "Id commit"
 //Visualizar el historico de cambios realizados
 git reflog
 
+//Se agrego la primera linea
+
