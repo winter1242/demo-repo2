@@ -61,4 +61,10 @@ git commit --amend -m "Nueva modificacion"
 //Cambiar el nombre de un archivo
 git mv "nombre.html" "Nuevo.html"
 
+//Remover un archivo del workspace
+git rm "nombre.html"
+
+//Transladarse a un commit especifico
+git reset --hard "Id commit"
+
 
