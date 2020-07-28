@@ -108,3 +108,6 @@ git clone "link"
 
 //Enviar los cambios a la rama de origen master
 git push origin master
+
+//Recuperar los archivos remotos
+git pull
