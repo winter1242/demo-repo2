@@ -39,5 +39,3 @@ git push
 
 //Nos permite visualizar el historial de commit que se ha realizado
 git log
-
-//Cambio sin importancia
