@@ -93,3 +93,9 @@ git tag
 
 //Borrar el nombre del tag
 git tag -d Nombre_Version
+
+//Nombrar un tag y describirlo
+git tag -a v1.0.0 -m "Version inicial"
+
+//Mostrar los commits relacionados a un tag
+git show v1.0.0
