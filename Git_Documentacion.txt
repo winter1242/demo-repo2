@@ -81,3 +81,6 @@ git branch -d Nombre_rama
 
 //Agregar una rama a otra(La rama actual traera los datos de Nombre_Rama)
 git merge Nombre_Rama
+
+//Crear una nueva rama y dirigirse a ella}
+git checkout  -b Nueva_Rama
