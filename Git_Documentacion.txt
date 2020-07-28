@@ -84,3 +84,12 @@ git merge Nombre_Rama
 
 //Crear una nueva rama y dirigirse a ella}
 git checkout  -b Nueva_Rama
+
+//Uso de etiquetas
+git tag Nombre_Version
+
+//Nombre del tag
+git tag
+
+//Borrar el nombre del tag
+git tag -d Nombre_Version
