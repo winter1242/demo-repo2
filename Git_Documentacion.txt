@@ -102,3 +102,9 @@ git show v1.0.0
 
 //Indicar que un commit pertenece a una version en especifico
 git tag -a v0.0.1 5345dgdsg -m "Version beta"
+
+//Clonar un repositorio
+git clone "link"
+
+//Enviar los cambios a la rama de origen master
+git push origin master
