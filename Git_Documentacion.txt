@@ -42,3 +42,11 @@ git log
 
 //Nos permite agregar un unico archivo al stage area
 git add "pagina.html"
+
+//Enviar al stage area segun el formato del archivo (Html en este caso)
+git add Carpeta/*.html
+
+//Eliminar archivos del stage area
+git reset .
+//Agregr un alias a los comandos (En este caso nombramos "l" como alias de "log")
+git config --global alias.l "log"
