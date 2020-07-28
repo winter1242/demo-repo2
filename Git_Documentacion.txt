@@ -99,3 +99,6 @@ git tag -a v1.0.0 -m "Version inicial"
 
 //Mostrar los commits relacionados a un tag
 git show v1.0.0
+
+//Indicar que un commit pertenece a una version en especifico
+git tag -a v0.0.1 5345dgdsg -m "Version beta"
