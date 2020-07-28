@@ -50,7 +50,7 @@ git add Carpeta/*.html
 git add --all
 
 //Eliminar archivos del stage area
-git reset .
+git reset "archivo"
 
 //Agregar un alias a los comandos (En este caso nombramos "l" como alias de "log")
 git config --global alias.l "log"
@@ -71,4 +71,6 @@ git reset --hard "Id commit"
 git reflog
 
 //Se agrego la primera linea
+
+//Se agrego la segunda linea
 
