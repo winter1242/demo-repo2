@@ -16,6 +16,9 @@ git config --global -l
 //Nos permite inicializar el archivo , es decir crear el archivo git 
 git init 
 
+//Nos permite visualizar los cambios
+git log --oneline --decorate --all --graph
+
 //Nos permite visualizar el status de nuestros archivos
 git status
 
