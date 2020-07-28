@@ -39,3 +39,6 @@ git push
 
 //Nos permite visualizar el historial de commit que se ha realizado
 git log
+
+//Nos permite agregar un unico archivo al stage area
+git add "pagina.html"
