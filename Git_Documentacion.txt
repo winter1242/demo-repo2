@@ -67,4 +67,6 @@ git rm "nombre.html"
 //Transladarse a un commit especifico
 git reset --hard "Id commit"
 
+//Visualizar el historico de cambios realizados
+git reflog
 
